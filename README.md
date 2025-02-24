@@ -9,7 +9,7 @@ Dataset Link : https://drive.google.com/file/d/1CDaWFvkccjdUw1E_gipTKOfMqiHNhNQL
 - **Discount Standardization:** Uniform formatting applied to the "DiscountOffer" column for consistency.
 - **Null Value Imputation:** Filled missing "DiscountPrice" values with the average discount price of the respective category and replaced null "SizeOption" entries with "Not Available."
 ## Data Analysis
-- **Average Price Calculation:** Calculated the overall average original price for products with ratings above 4 using AVERAGEIF.
+- **Average Price Calculation:** Calculated the overall average original price for products with ratings above 4 using 'AVERAGEIF'.
 - **Discount Count:** Counted products with more than 50% discount using COUNTIF.
 - **Size Availability:** Counted the number of products available in size "M" with COUNTIF.
 - **High vs Low Discount Labeling:** Added a "High Discount" label for products with discounts over 50% using the IF function.
